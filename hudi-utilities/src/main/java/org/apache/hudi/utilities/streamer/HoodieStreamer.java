@@ -110,6 +110,7 @@ import static org.apache.hudi.utilities.UtilHelpers.readConfig;
  */
 public class HoodieStreamer implements Serializable {
 
+
   private static final long serialVersionUID = 1L;
   private static final Logger LOG = LoggerFactory.getLogger(HoodieStreamer.class);
   private static final List<String> DEFAULT_SENSITIVE_CONFIG_KEYS = Arrays.asList(
